@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+#box1 {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color:aqua;
+}
+#box1-1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    background-color:rgb(255, 0, 234);
+}
+#box1 > img { /* >�� �먯떇�붿냼(child element)瑜� �섎� */
+    height: 150px;
+}
+#box2 {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    left: 100px;
+    background-color: blueviolet;
+}
+.cbox { /* 媛숈� �ㅽ��쇱쓣 �щ윭 �붿냼�� �쒓볼踰덉뿉 �곸슜�섎뒗 寃쎌슦 �대옒��(class) �좏깮�먮� �ъ슜 */
+    position: relative;
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: #ffff00;
+    border: dashed 1px #000;
+    box-sizing: border-box; /* �뚮몢由щ� �ъ슜�섎뒗 寃쎌슦 諛뺤뒪�� �ш린 湲곗� �ㅼ젙 *
